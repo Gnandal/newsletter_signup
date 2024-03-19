@@ -36,20 +36,22 @@ h1 {
 
 main {
   margin: auto;
-  display: flex;
-  flex-direction: column-reverse;
 }
 
 ul {
   list-style: url("./assets/images/icon-list.svg");
 }
 
-main > section:nth-child(1) {
-  margin: 1rem;
+li {
+  margin-top: 1rem;
 }
 
 main > section:nth-child(2) {
-  height: 20em;
+  margin: 1rem;
+}
+
+main > section:nth-child(1) {
+  height: 20rem;
   background-image: url("./assets/images/illustration-sign-up-desktop.svg");
   background-position: center;
   background-size: cover;
@@ -58,6 +60,7 @@ main > section:nth-child(2) {
 }
 
 form {
+  margin: 2rem 0;
   display: flex;
   flex-direction: column;
 }
@@ -101,6 +104,10 @@ footer {
   margin-bottom: 2rem;
 }
 
+.attribution {
+  display: none;
+}
+
 @media screen and (min-width: 900px) {
 
   body {
@@ -109,30 +116,28 @@ footer {
   }
 
   main {
+    height: 80vh;
     background-color: var(--color-white);
     margin: auto;
     padding: 1rem;
     width: 60%;
-    display: grid;
-    grid-template-columns: 10fr 9fr;
-    column-gap: 2rem;
-
+    
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    
     border-radius: 1rem;
   }
 
-  main > section:nth-child(1) {
-    height: 100%;
-    margin: 1rem;
-
-    box-sizing: border-box;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  main > section:nth-child(2) {
+    flex: 55;
+    padding-top: 8rem;
   }
 
-  main > section:nth-child(2) {
-    height: 100%;
+  main > section:nth-child(1) {
+    flex: 50;
+    height: 80vh;
     border-start-start-radius: 0.8rem;
     border-start-end-radius: 0.8rem;
   }
@@ -140,5 +145,9 @@ footer {
   footer {
     color: var(--color-white);
     margin-top: 2rem;
+  }
+
+  .attribution {
+    display: block;
   }
 }
