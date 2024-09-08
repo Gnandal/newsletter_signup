@@ -27,7 +27,7 @@ body {
   background-color: var(--color-white);
 }
 
-h1 {
+h2 {
   margin: 0 0 2rem 0;
   font-size: 36px;
   font-weight: bold;
@@ -114,7 +114,7 @@ form input:focus {
   position: relative;
 }
 
-h2 {
+h3 {
   font-size: 2.6rem;
   line-height: 2.4rem;
 }
@@ -201,12 +201,12 @@ input.error {
     border-start-end-radius: 0.8rem;
   }
 
-  h1 {
+  h2 {
     font-size: calc(3rem + 70%);
     line-height: 3.2rem;
   }
 
-  h2 {
+  h3 {
     font-size: 4rem;
     line-height: 4rem;
   }
@@ -218,8 +218,8 @@ input.error {
 
   #success_message {
     background-color: var(--color-white);
-    height: 50vh;
-    width: 25vw;
+    height: 30rem;
+    width: 25rem;
     position: inherit;
 
     border-radius: 2rem;
@@ -227,9 +227,8 @@ input.error {
   }
 
   .success_message_content {
-    background-color: var(--color-white);
     height: fit-content;
-    margin: 3rem 0;
+    margin: 2rem 0;
 
     gap: 2rem;
   }
