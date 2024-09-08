@@ -1,6 +1,4 @@
-# Frontend Mentor - Product preview card component solution
-
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+# Frontend Mentor - Newsletter Sign Up
 
 ## Table of contents
 
@@ -34,8 +32,8 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo](https://github.com/Gnandal/newsletter-sign-up-with-success-message-main)
-- Live Site URL: [Demo](https://gnandal.github.io/newsletter-sign-up-with-success-message-main)
+- Solution URL: [Github Repo](https://github.com/Gnandal/newsletter_signup)
+- Live Site URL: [Demo](https://gnandal.github.io/newsletter_signup)
 
 ## My process
 
