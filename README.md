@@ -34,8 +34,8 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo](https://github.com/Gnandal/article-preview-component-master)
-- Live Site URL: [Demo](https://gnandal.github.io/article-preview-component-master)
+- Solution URL: [Github Repo](https://github.com/Gnandal/newsletter-sign-up-with-success-message-main)
+- Live Site URL: [Demo](https://gnandal.github.io/newsletter-sign-up-with-success-message-main)
 
 ## My process
 
